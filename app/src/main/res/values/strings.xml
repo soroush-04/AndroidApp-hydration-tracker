@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">final_project_water_tracker</string>
+    <string-array name="activityLevel">
+        <item>Select Activity Level</item>
+        <item>Sedentary (little to no exercise + work a desk job)</item>
+        <item>Lightly Active (light exercise 1-3 days/week)</item>
+        <item>Moderately Active (moderate exercise 3-5 days/week)</item>
+        <item>Very Active (heavy exercise 6-7 days/week)</item>
+        <item>Extremely Active (very heavy exercise, training 2x/day)</item>
+    </string-array>
+    <string-array name="frequency_array">
+        <item>Seconds</item>
+        <item>Minutes</item>
+        <item>Hours</item>
+    </string-array>
+</resources>
