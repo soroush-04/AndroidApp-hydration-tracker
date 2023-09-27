@@ -76,7 +76,44 @@ The primary focus of the User Interface design is centered on simplicity and eas
 
 <div align="center">
   <img src="./Images/1.png" alt="Image 1" width="300" style="margin: 0 10px;">&nbsp;&nbsp;&nbsp;
-  <img src="./Images/2.png" alt="Image 2" width="300" style="margin: 0 10px;">
+  <img src="./Images/2.png" alt="Image 2" width="318" style="margin: 0 10px;">
 </div>
 
 <br>
+
+The next page in the application is the home page of it. As we can see here it contains different information and widgets.
+The first one is the Goal of intake water for the user. The user can also modify this goal amount by using the Set Goal option.
+The next part is showing the total progression of water consumption for the user. Also, Add Water allows the user to add water drank by using this section. In the Add Water section, the user can input the amount of consumed water, so the total progress will be updated based on it in the Home Page.
+The last three options are profile, reminders, and logout for adjusting user’s information, modify notifications, and log out from account respectively.
+
+<div align="center">
+  <img src="./Images/3.png" alt="Image 3" width=240 style="display:inline-block; margin:0 10px;">
+</div>
+
+<br>
+
+In the Set Goal page, users can set a custom amount of intake water goal or use the Calculate Goal to do the calculation based on Total Daily Energy Expenditure formula.
+The goal amount will be updated as well in the home page. We can move back to the home page by using the Back to Home button.
+
+<div align="center">
+  <img src="./Images/4.png" alt="Image 4" width=240 style="display:inline-block; margin:0 10px;">
+</div>
+
+<br>
+
+In the Reminder page, we can set wake up and sleep time for the application, so the application won’t send any notifications to the user during sleeping time. We also have the option to set preferred time intervals to get notifications throughout the day.
+
+<div align="center">
+  <img src="./Images/5.png" alt="Image 5" width="200" style="margin: 0 10px;">
+  <img src="./Images/6.png" alt="Image 6" width="215" style="margin: 0 10px;">
+  <img src="./Images/7.png" alt="Image 7" width="260" style="margin: 0 10px;">
+</div>
+
+<br>
+
+The last section is the 'Profile,' where users can update their personal details. All user information is stored and retrieved using MongoDB for reuse.
+
+<div align="center">
+  <img src="./Images/8.png" alt="Image 8" width="200" style="margin: 0 10px;">
+  <img src="./Images/9.png" alt="Image 9" width="163" style="margin: 0 10px;">
+</div>
