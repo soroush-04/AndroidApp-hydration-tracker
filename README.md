@@ -104,8 +104,8 @@ The goal amount will be updated as well in the home page. We can move back to th
 In the Reminder page, we can set wake up and sleep time for the application, so the application won’t send any notifications to the user during sleeping time. We also have the option to set preferred time intervals to get notifications throughout the day.
 
 <div align="center">
-  <img src="./Images/5.png" alt="Image 5" width="200" style="margin: 0 10px;">
-  <img src="./Images/6.png" alt="Image 6" width="215" style="margin: 0 10px;">
+  <img src="./Images/5.png" alt="Image 5" width="200" style="margin: 0 10px;">&nbsp;&nbsp;&nbsp;
+  <img src="./Images/6.png" alt="Image 6" width="215" style="margin: 0 10px;">&nbsp;&nbsp;&nbsp;
   <img src="./Images/7.png" alt="Image 7" width="260" style="margin: 0 10px;">
 </div>
 
@@ -114,6 +114,6 @@ In the Reminder page, we can set wake up and sleep time for the application, so 
 The last section is the 'Profile,' where users can update their personal details. All user information is stored and retrieved using MongoDB for reuse.
 
 <div align="center">
-  <img src="./Images/8.png" alt="Image 8" width="200" style="margin: 0 10px;">
+  <img src="./Images/8.png" alt="Image 8" width="200" style="margin: 0 10px;">&nbsp;&nbsp;&nbsp;
   <img src="./Images/9.png" alt="Image 9" width="163" style="margin: 0 10px;">
 </div>
