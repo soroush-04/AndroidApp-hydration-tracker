@@ -9,6 +9,7 @@
   - [Objectives](#objectives)
   - [App Architecture](#architecture)
   - [Development Tools](#devtools)
+  - [User Interface](#ui)
 <!--te-->
 
 ---
