@@ -5,18 +5,14 @@
 =======
 
 <!--ts-->
-  - [Problem Statement](#problem-statement)
   - [Objectives](#objectives)
-  - [App Architecture](#architecture)
   - [Development Tools](#devtools)
   - [User Interface](#ui)
 <!--te-->
 
 ---
 
-## Problem Statement<a id="problem-statement"></a>
 
-Introducing the 'Hydration Tracker Android App,' a solution addressing the critical issue of inadequate water intake, particularly prevalent among older adults who often face diminished thirst sensations and medication-induced fluid loss. This mobile application promotes hydration awareness and habit formation by offering real-time tracking of daily water consumption, tailored reminders, and intuitive accessibility via smartphones, making it a user-friendly tool to combat dehydration and improve overall well-being.
 
 ## Objectives<a id="objectives"></a>
 
@@ -44,18 +40,7 @@ These are the key functional requirements for Hydration  Tracker App
 
 
 
-## App Architecture<a id="architecture"></a>
 
-The app starts off with the registration page. From here the user can register for a new account or click “Already Have an Account” button to go to the login page. If a user creates a new account, the user is directed to a profile page which gathers all the users information. After this page the user is directed to the home page. If the user logs in, the user is directed to to the home page. From the home page the user can click the “Set Goal” button to go to an activity to set their goal. On this activity the user can click the “calculate goal” button to get the recommended amount which is calculated with the users data, or the user can manually enter their desired goal and click “set goal”. From there the user can go back to the home page. At the home page the user can enter the amount of water they have drank and click the “Add Water” button to update their progress. The user can also click the “Profile” button to go to the profile update screen which allows users to updates their personal data. From their they can go back to the home page and are able to click the “Reminders” button which takes them to an activity where they can set the time they are asleep and how often they want reminders. Finally users are able to logout of their account by clicking the “Logout” button.
-<br>
-The app consists of the following components:
-- <u>Intents</u>: Used to switch and send data between activities.
-- <u>Relative Layout</u>: Structure different views within the activitiy.
-- <u>Scroll View</u>: Used to fit more content on activity. 
-- <u>Edit Text</u>: Used to gather user inputted data. 
-- <u>Text View</u>: Used to display data. 
-- <u>Button</u>: Used to navigate and submit. 
-- <u>Spinner</u>: Used to display data in an easy to use way.
 
 
 
@@ -84,7 +69,7 @@ The primary focus of the User Interface design is centered on simplicity and eas
 
 The next page in the application is the home page of it. As we can see here it contains different information and widgets.
 The first one is the Goal of intake water for the user. The user can also modify this goal amount by using the Set Goal option.
-The next part is showing the total progression of water consumption for the user. Also, Add Water allows the user to add water drank by using this section. In the Add Water section, the user can input the amount of consumed water, so the total progress will be updated based on it in the Home Page.
+The next part is showing the total progression of water consumption for the user. In the Add Water section, the user can input the amount of consumed water, so the total progress will be updated based on it in the Home Page.
 The last three options are profile, reminders, and logout for adjusting user’s information, modify notifications, and log out from account respectively.
 
 <div align="center">
@@ -94,7 +79,7 @@ The last three options are profile, reminders, and logout for adjusting user’s
 <br>
 
 In the Set Goal page, users can set a custom amount of intake water goal or use the Calculate Goal to do the calculation based on Total Daily Energy Expenditure formula.
-The goal amount will be updated as well in the home page. We can move back to the home page by using the Back to Home button.
+The goal amount will be updated as well in the home page.
 
 <div align="center">
   <img src="./Images/4.png" alt="Image 4" width=240 style="display:inline-block; margin:0 10px;">
@@ -102,7 +87,7 @@ The goal amount will be updated as well in the home page. We can move back to th
 
 <br>
 
-In the Reminder page, we can set wake up and sleep time for the application, so the application won’t send any notifications to the user during sleeping time. We also have the option to set preferred time intervals to get notifications throughout the day.
+In the Reminder page, we can set wake up and sleep time for the application, so mute the notification during that time. We also have the option to set preferred time intervals to get notifications throughout the day.
 
 <div align="center">
   <img src="./Images/5.png" alt="Image 5" width="200" style="margin: 0 10px;">&nbsp;&nbsp;&nbsp;
